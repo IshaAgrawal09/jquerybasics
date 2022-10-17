@@ -1,0 +1,54 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.outer{
+width: 1000px;
+height: 100%;
+float:left;
+background:#d8e4dd;
+}
+
+.inner {
+margin:2% 0 2% 26%;
+background: #ededed;
+float:left;
+width:44%;
+height:90%;
+}
+.quali{
+    width:70%;
+    margin:55% 0 0 15%;
+}
+img{
+    width:100%;
+}
+button{
+    padding: 0.5%;
+    margin:1% 0 0 0;
+}
+#msg{
+    margin: 0.5%;
+    padding: 0.5%;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+#productDrop{
+    text-align: center;
+}
+tr,td{
+    border: 2.5px solid #ffffff;
+}
+
+input{
+    padding: 1%;
+}
+#images{
+    width: 40%;
+    height: 300px;
+    margin: auto;
+}
+#images img{
+    height: 100%;
+    width: 100%;
+}
