@@ -1,83 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
     <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>JQuery Tasks</title>
-</head>
-<body>
+  </head>
+  <body>
     <div id="thisBtn">
-        <table class="edu">
-            <tr >
-                <td><input type="text" id="eClass" placeholder="Enter Class">
-                </td>
-                <td><input type="text" id="eBoard" placeholder="Enter Board">
-                </td>
-                <td><input type="text" id="eMarks" placeholder="Enter marks">
-                </td>
-                <td><input type="text" id="eDivision" placeholder="Enter Division">
-                </td>
-                <td><button class = "bAdd">+</button>
-                </td>
-                <td><button class = "bMinus">-</button>
-                </td>
-            </tr>
-        </table>
+      <table class="edu">
+        <tr>
+          <td><input type="text" id="eClass" placeholder="Enter Class" /></td>
+          <td><input type="text" id="eBoard" placeholder="Enter Board" /></td>
+          <td><input type="text" id="eMarks" placeholder="Enter marks" /></td>
+          <td>
+            <input type="text" id="eDivision" placeholder="Enter Division" />
+          </td>
+          <td><button class="bAdd">+</button></td>
+          <td><button class="bMinus">-</button></td>
+        </tr>
+      </table>
     </div>
     <button id="bPrev">Prev</button>
-                <button id="bNext">Next</button><br><br>
-                
-                <div id="images">
-                    <img src="https://higherlogicdownload.s3.amazonaws.com/SRAINTERNATIONAL/UploadedImages/167e255a-8759-4a2f-92f6-591d6d8f7afb/Catalyst-pictures/Text-body-images/april2021/Picture_2_Travel.jpeg" alt="Poker Card">
-                </div>
-            <hr>
-    <hr>
-    <input type="text" id="Flower" placeholder="Enter flower Name">
-        <div id="flow"></div>
-<hr>
-<div id="container">
-    <h3>Products</h3>
-    <table>  
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Size</th> 
-                <th>Color</th>
-                <th>Price</th>
-            </tr>
-        </thead>
-        <tbody id="productDrop">
-            
-        </tbody>  
-    </table>
-</div>
-<hr>
-<h3 >Para Alert</h3>
-<p id="click">Paragraphing is the practice of dividing a text into paragraphs. The purpose of paragraphing is to signal shifts in thinking and give readers a rest. Paragraphing is "a way of making visible to the reader the stages in the writer's thinking" (J. Ostrom, 1978).
-</p>
+    <button id="bNext">Next</button><br /><br />
 
-<hr>
-    <div id="divInner">
-        <h2>Product List</h2>
-
-    <input type="text" id="openList" placeholder="Enter Category Name">
-    <ul>
-    <li>Clothes<button class="btnC">+</button></li>
-    <ul>
-    <li>T-Shirts<button class="btnC">+</button></li>
-    <li>Trousers<button class="btnC">+</button></li>
-    </ul>
-    <li>Electronics<button class="btnC">+</button></li>
-    <ul>
-    <li>Mobiles<button class="btnC">+</button></li>
-    <li>Tabs<button class="btnC">+</button></li>
-    </ul>
-    </ul>
+    <div id="images">
+      <img
+        src="https://higherlogicdownload.s3.amazonaws.com/SRAINTERNATIONAL/UploadedImages/167e255a-8759-4a2f-92f6-591d6d8f7afb/Catalyst-pictures/Text-body-images/april2021/Picture_2_Travel.jpeg"
+        alt="Poker Card"
+      />
     </div>
-</body>
+    <hr />
+    <hr />
+    <input type="text" id="Flower" placeholder="Enter flower Name" />
+    <div id="flow"></div>
+    <hr />
+    <div id="container">
+      <h3>Products</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Size</th>
+            <th>Color</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody id="productDrop"></tbody>
+      </table>
+    </div>
+    <hr />
+    <h3>Clicked Anywhere in the Paragraph!</h3>
+    <p id="click">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quo
+      sapiente tempora! Officia incidunt, magnam omnis iusto numquam dignissimos
+      molestiae, nulla quibusdam modi vitae nostrum quos quam fugit? Nostrum,
+      dicta?
+    </p>
+
+    <hr />
+    <div id="divInner">
+      <h2>Product List</h2>
+
+      <input type="text" id="openList" placeholder="Enter Category Name" />
+      <ul>
+        <li>Clothes<button class="btnC">+</button></li>
+        <ul>
+          <li>T-Shirts<button class="btnC">+</button></li>
+          <li>Trousers<button class="btnC">+</button></li>
+        </ul>
+        <li>Shoes<button class="btnC">+</button></li>
+        <ul>
+          <li>Formal<button class="btnC">+</button></li>
+          <li>Casual<button class="btnC">+</button></li>
+        </ul>
+      </ul>
+    </div>
+  </body>
 </html>
